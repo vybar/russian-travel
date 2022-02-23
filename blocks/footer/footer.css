@@ -1,0 +1,37 @@
+/* TODO add style */
+.footer {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 24px;
+
+}
+
+/* TODO research grid */
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  grid-template-rows: min-content;
+  column-gap: 18px;
+  list-style-type: none;
+}
+
+.footer__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+/* TODO Нужно разбить по БЭМ */
+
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.intro__title {
+  max-width: 690px;
+  font-size: 54px;
+  font-weight: 900;
+  color: #fff;
+  font-style: normal;
+  line-height: 58px;
+  padding-top: 92px;
+  margin: 0;
+}
+
+.intro__text {
+  max-width: 690px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  line-height: 28.08px;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.intro__list {
+  max-width: 690px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+  line-height: 18px;
+  padding-top: 33px;
+}
+
+.intro__list_span-accent {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+}
