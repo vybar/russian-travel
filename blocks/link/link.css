@@ -1,4 +1,9 @@
-/* TODO добавить ховер на ссылки */
 .link {
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;
+}
 
+.link:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }

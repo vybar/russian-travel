@@ -2,26 +2,28 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Russian-travel</title>
     <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body>
       <div class="page">
+        <!-- Шапка сайта -->
         <header class="header">
-          <img class="header__logo" src="./images/header__logo.png" alt="Логотип Россия">
+          <img class="header__logo link" src="./images/header__logo.png" alt="Логотип Россия">
           <div class="header__lang">
-            <a class="header__link" href="#">Ru</a>
-            <a class="header__link" href="#">En</a>
+            <a class="header__link header__link-active link" href="#">Ru</a>
+            <a class="header__link link" href="#">En</a>
         </div>
         </header>
-
+        <!-- Секция Путешествия по России -->
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
           <img class="lead__image" src="./images/lead__image.png" alt="Картинка нашего пути">
           <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
         </section>
-
+        <!-- Секция интро -->
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
@@ -31,18 +33,28 @@
              миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
              Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их
              в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и
-             описали некоторые интересные места, достойные вашего отпуска.</p>
-          <p class="intro__list">
+             описали некоторые интересные места, достойные вашего отпуска.
+          </p>
+
+          <ul class="intro__list">
+            <li><span class="intro__span-accent">Часовых поясов </span>11</li>
+            <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО </span>12</li>
+            <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО </span>16</li>
+            <li><span class="intro__span-accent">Природных заповедников </span>105</li>
+            <li><span class="intro__span-accent">Аэропортов </span>241</li>
+          </ul>
+
+          <!-- TODO delet? -->
+          <!-- <p class="intro__list">
             <span class="intro__list_span-accent">Часовых поясов</span> 11<br>
             <span class="intro__list_span-accent">Объектов природного наследия ЮНЕСКО</span> 12 <br>
             <span class="intro__list_span-accent">Объектов культурного наследия ЮНЕСКО</span> 16 <br>
             <span class="intro__list_span-accent">Природных заповедников</span> 105 <br>
             <span class="intro__list_span-accent">Аэропортов</span> 241 <br>
-          </p>
-        </section>
+          </p> -->
 
-        <!-- TODO add style -->
-        <!-- 100% гриды, но нужно для начала вставить картинки-->
+        </section>
+        <!-- Секция с фото -->
         <section class="photo-grid">
           <img class="photo-grid__image" src="./images/photo-grid__item1.png" alt="Картинка, что мы видели">
           <img class="photo-grid__image" src="./images/photo-grid__item2.png" alt="Картинка, что мы видели">
@@ -57,15 +69,13 @@
           <img class="photo-grid__image" src="./images/photo-grid__item11.png" alt="Картинка, что мы видели">
           <img class="photo-grid__image" src="./images/photo-grid__item12.png" alt="Картинка, что мы видели">
         </section>
-
-        <!-- TODO add style places-->
-        <!-- Видимо на гридах нужно будет делать тоже, чекнуть -->
+        <!-- Секция с красивыми местами -->
         <section class="places">
           <div class="places__place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+              <a class="place__link link" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
             <img class="place__image" src="./images/Kurshskayakosa.png" alt="Картинка Куршская коса">
             <div>
@@ -81,7 +91,7 @@
             <h3 class="place__title">Кольский</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+              <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
             </div>
             <img class="place__image" src="./images/Kolskiy.png" alt="Картинка Кольский">
             <div>
@@ -98,7 +108,7 @@
             <h3 class="place__title">Алтай</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+              <a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
             </div>
             <img class="place__image" src="./images/Altay.png" alt="Картинка Алтай">
             <div>
@@ -121,7 +131,7 @@
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+              <a class="place__link link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="./images/ZimniyBajkal.png" alt="Картинка Байкал">
             <div>
@@ -130,7 +140,7 @@
                 источник пресной воды и одно из красивейших мест
                 в России.</p>
               <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное
-                место для соревнований по скийорингу. Это такой
+                место для соревнований по скийорингу. Это такой
                 вид спорта, когда лыжник привязывает себя
                 к мотоциклу, и тандем старается развить как можно
                 бóльшую скорость на льду. В марте 2019 года на
@@ -143,7 +153,7 @@
             <h3 class="place__title">Карелия</h3>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+              <a class="place__link link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./images/Kareliya.png" alt="Картинка Карелия">
             <div>
@@ -157,35 +167,49 @@
                 солнце раньше, чем увидал его Иван Грозный.
                 В девственном лесу на сотню километров не
                 встретишь тропы. А на редких тропинках деревья
-                в паре метров от земли помечены медвежьими к
-                огтями. Чтобы все знали, кто тут хозяин.</p>
+                в паре метров от земли помечены медвежьими
+                когтями. Чтобы все знали, кто тут хозяин.</p>
             </div>
           </div>
-
         </section>
-
-        <!-- TODO add style cover-->
-        <!-- Секция cover -->
-        <section class="cover">
+        <!-- Секция до Байкала "на собаках" -->
+        <!-- TODO удалить, если и так работает<section class="cover">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          <img class="cover__overlay" src="./images/cover__background.png" alt="Картинка до Байкала на собаках">
-          <img class="cover__background" src="./images/cover__overlay.png" alt="Затемнение картинки">
+          <a class="cover__link link" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
+          <img class="cover__background" src="./images/cover__background.png" alt="Картинка до Байкала на собаках">
+          <img class="cover__overlay" src="./images/cover__overlay.png" alt="Затемнение картинки">
+        </section> -->
+        <!-- <section class="cover cover__background cover__overlay">
+          <h2 class="cover__title"> <a class="cover__link link" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a> До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </section> -->
+
+        <!-- <section class="cover cover__background cover__overlay link">
+          <a class="cover__title" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </section> -->
+
+        <section class="cover">
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_self" class="cover__link"></a>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          <div class="cover__background"></div>
         </section>
 
-        <!-- TODO add style footer-->
-        <section class="footer">
+        <!-- Подвал сайта -->
+        <footer class="footer">
           <nav>
-            <ul class="footer__links">
-              <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-              <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-              <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-              <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-              <li><a class="footer__link" href="https://travel.yandex.ru ">Путешествия</a></li>
+            <ul class="footer__menu">
+              <li><a class="footer__link link" href="https://yandex.ru/maps">Карты</a></li>
+              <li><a class="footer__link link" href="https://yandex.ru/pogoda">Погода</a></li>
+              <li><a class="footer__link link" href="https://rasp.yandex.ru">Расписание</a></li>
+              <li><a class="footer__link link" href="https://calendar.yandex.ru">Календарь</a></li>
+              <li><a class="footer__link link" href="https://travel.yandex.ru ">Путешествия</a></li>
             </ul>
           </nav>
           <p class="footer__copyright">&copy; 2022. vybar</p>
-        </section>
+        </footer>
       </div>
   </body>
 </html>

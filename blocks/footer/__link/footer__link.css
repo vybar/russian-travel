@@ -1,1 +1,14 @@
-/* TODO add style */
+.footer__link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
