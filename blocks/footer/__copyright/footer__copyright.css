@@ -22,7 +22,7 @@
   .footer__copyright {
     max-width: 90%;
     text-align: left;
-    margin-top: 48px;
+    margin: 48px 0 0;
     line-height: 16px;
   }
 }
