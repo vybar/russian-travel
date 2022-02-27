@@ -8,12 +8,6 @@
   margin-top: 8px;
 }
 
-/* TODO del? */
-@media (max-width: 1024px) {
-  .lead__caption {
-  }
-}
-
 @media (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
