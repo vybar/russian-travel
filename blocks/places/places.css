@@ -4,24 +4,31 @@
   padding-top: 92px;
   display: grid;
   grid-row-gap: 80px;
-  grid-column-gap: 2.5rem;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .places {
+    width: 92.5%;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .places {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 93.75%;
     grid-row-gap: 88px;
-    max-width: 720px;
     padding-top: 88px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 639px) {
   .places {
+    width: 100%;
     grid-row-gap: 50px;
     padding-top: 64px;
   }

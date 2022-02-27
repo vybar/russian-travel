@@ -8,9 +8,15 @@
   padding-top: 92px;
   }
 
+  @media screen and (max-width: 1024px){
+    .photo-grid {
+        max-width: 928px;
+    }
+  }
+
   @media (max-width: 768px) {
     .photo-grid {
-      max-width: 720px;
+      max-width: 93.75%;
       padding-top: 88px;
     }
   }

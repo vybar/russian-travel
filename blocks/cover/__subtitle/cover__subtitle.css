@@ -13,6 +13,14 @@
   margin: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    /* font-size: 4vw; */
+    line-height: 16px;
+    max-width: 288px;
+  }
+}
+
 @media (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;

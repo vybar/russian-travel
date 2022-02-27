@@ -4,6 +4,12 @@
   padding-top: 92px;
 }
 
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
 @media (max-width: 768px) {
   .intro {
     padding-top: 88px;

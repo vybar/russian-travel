@@ -18,7 +18,7 @@
 
 @media (max-width: 768px) {
   .intro__list {
-    max-width: 720px;
+    max-width: 93.75%;
     margin: 0 auto;
   }
 }
@@ -26,6 +26,5 @@
 @media (max-width: 320px) {
   .intro__list {
     max-width: 288px;
-    margin: 0 auto;
   }
 }

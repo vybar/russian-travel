@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__menu {
     grid-template-columns: min-content;
     grid-template-rows: repeat(5, min-content);

@@ -8,12 +8,6 @@
   margin: 0 0 12px;
 }
 
-/* TODO Удалить? */
-/* @media (max-width: 1024px) {
-  .place__url-heading {
-  }
-} */
-
 @media (max-width: 768px) {
   .place__url-heading {
     max-width: 352px;

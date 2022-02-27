@@ -1,14 +1,26 @@
 .place__website {
-  grid-column: 2;
-  grid-row: 1;
+  margin: 0 0 3.75rem;
   align-self: end;
+  grid-row: 1;
+  grid-column: 2;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+  .place__website {
+    margin: 0 0 3.9vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin: 0 auto 2.5rem;
+  }
+}
+
+@media (max-width: 639px) {
   .place__website  {
-    width: 90%;
     grid-column: 1;
     grid-row: 2;
-    margin: 0 auto 0;
+    width: 90%;
   }
 }
