@@ -1,10 +1,10 @@
 .place__title {
   width: 100%;
   color: #fff;
-  font-size: 4.5rem;
-  line-height: 4rem;
+  font-size: 72px;
+  line-height: 76px;
   font-weight: 900;
-  margin: 0 0 3.75rem;
+  margin: 0 0 48px;
   padding: 0;
   grid-row: 1;
   grid-column: 1;
@@ -12,18 +12,16 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    font-size: 7vw;
-    line-height: 6.34vw;
-    margin: 0 0 3.9vw;
+    font-size: 72px;
+    line-height: 76px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
-    word-spacing: 2rem;
-    font-size: 2.625rem;
-    line-height: 2.875rem;
-    margin: 0 0 2.5rem;
+    word-spacing: 10px;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
@@ -31,14 +29,13 @@
   .place__title {
     word-spacing: normal;
     width: 90%;
-    margin: 0 auto 2.5rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__title {
-    font-size: 2rem;
-    line-height: 2.18rem;
-    margin-bottom: 2rem;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 32px;
   }
 }

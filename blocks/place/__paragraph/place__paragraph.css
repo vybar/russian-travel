@@ -1,18 +1,21 @@
 .place__paragraph {
   grid-column: 2;
   color: #fff;
-  font-size: 1.125rem;
-  line-height: 1.875rem;
-  margin: 0 0 2.25rem;
+  font-size: 18px;
+  line-height: 29.34px;
+  font-weight: 400;
+  margin: 0 0 27px;
 }
 
-.place__paragraph:last-of-type {
+/* .place__paragraph:last-of-type {
   margin-bottom: 0;
-}
+} */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
-    margin-bottom: 1.5rem;
+    font-size: 16px;
+    line-height: 26.08px;
+    margin: 0 0 24px
   }
 }
 
@@ -20,12 +23,12 @@
   .place__paragraph {
     width: 90%;
     grid-column: 1;
-    font-size: 1rem;
-    line-height: 1.6875rem;
-    margin: 1.5rem auto;
+    font-size: 16px;
+    line-height: 26.08px;
+    margin: 0 auto 24px;
   }
-
+/*
   .place__paragraph:first-of-type {
     margin-bottom: 0;
-  }
+  } */
 }

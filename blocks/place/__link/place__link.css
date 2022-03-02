@@ -1,8 +1,9 @@
 .place__link {
   max-width: 456px;
   font-weight: normal;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
   text-decoration-line: underline;
   color: #fff;
 }

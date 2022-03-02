@@ -11,14 +11,13 @@
   }
 }
 
+/* TODO del? */
 @media (max-width: 768px) {
   .lead {
-    padding-top: 48px;
   }
 }
 
 @media (max-width: 320px) {
   .lead {
-    padding-top: 48px;
   }
 }

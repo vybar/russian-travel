@@ -6,7 +6,12 @@
 
 @media (max-width: 639px) {
   .place__image  {
-    grid-column: 1;
     grid-row: 3;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image  {
+    margin-bottom: 32px;
   }
 }
