@@ -1,4 +1,4 @@
-.place__title {
+/* .place__title {
   width: 100%;
   color: #fff;
   font-size: 72px;
@@ -8,16 +8,15 @@
   padding: 0;
   grid-row: 1;
   grid-column: 1;
-}
+} */
 
-@media screen and (max-width: 1024px) {
+/* TODO del? */
+/* @media screen and (max-width: 1024px) {
   .place__title {
-    font-size: 72px;
-    line-height: 76px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__title {
     word-spacing: 10px;
     font-size: 42px;
@@ -37,5 +36,36 @@
     font-size: 32px;
     line-height: 35px;
     margin: 0 auto 32px;
+  }
+} */
+
+/* TODO del or add? */
+.place__title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0 0 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    word-spacing: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0 16px 29px 16px;
   }
 }

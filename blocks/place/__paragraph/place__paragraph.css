@@ -1,21 +1,25 @@
-.place__paragraph {
+/* .place__paragraph {
   grid-column: 2;
   color: #fff;
   font-size: 18px;
   line-height: 29.34px;
   font-weight: 400;
-  margin: 0 0 27px;
+  margin: 0 0 26px;
 }
 
-/* .place__paragraph:last-of-type {
+.place__paragraph:last-of-type {
   margin-bottom: 0;
-} */
+}
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
     margin: 0 0 24px
+  }
+
+  .place__paragraph:first-of-type {
+    margin-top: 32px;
   }
 }
 
@@ -26,9 +30,46 @@
     font-size: 16px;
     line-height: 26.08px;
     margin: 0 auto 24px;
+    word-spacing: 6px;
   }
-/*
+} */
+
+/* TODO del or add? */
+.place__paragraph {
+  grid-column: 2;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+  margin: 0 0 25px 0;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    grid-column: 1;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
   .place__paragraph:first-of-type {
-    margin-bottom: 0;
-  } */
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin: 0px auto 25px;
+    max-width: 90%;
+  }
 }

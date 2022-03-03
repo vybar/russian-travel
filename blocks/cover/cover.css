@@ -26,13 +26,13 @@
 
 @media (max-width: 768px) {
   .cover {
-    padding-top: 90px;
+    padding-top: 86px;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
     grid-gap: 16px;
-    padding-top: 41px;
+    padding-top: 66px;
   }
 }

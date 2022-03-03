@@ -1,4 +1,4 @@
-.place__link {
+/* .place__link {
   max-width: 456px;
   font-weight: normal;
   font-size: 18px;
@@ -18,4 +18,15 @@
   .place__link  {
     max-width: 288px;
   }
+} */
+
+/* TODO del or add? */
+.place__link {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  transition: .2s ease-in-out;
+  color: #fff;
 }
