@@ -1,33 +1,3 @@
-/* .place {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: repeat(3, min-content);
-  grid-column-gap: 40px;
-}
-
-@media screen and (max-width: 1279px) {
-  .place {
-    grid-template-columns: 42.96875vw 1fr;
-    grid-column-gap: 2rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place {
-    grid-template-columns: 340px 1fr;
-    grid-column-gap: 1.75rem;
-  }
-}
-
-@media screen and (max-width: 639px) {
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, min-content);
-  }
-} */
-
-/* TODO del or add? */
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -41,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 914px) {
   .place {
     grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;

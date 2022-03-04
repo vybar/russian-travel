@@ -1,26 +1,3 @@
-/* .place__link {
-  max-width: 456px;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 400;
-  text-decoration-line: underline;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  .place__link {
-    max-width: 352px;
-  }
-}
-
-@media (max-width: 320px) {
-  .place__link  {
-    max-width: 288px;
-  }
-} */
-
-/* TODO del or add? */
 .place__link {
   margin: 0;
   font-weight: 400;

@@ -10,14 +10,3 @@
     padding-top: 48px;
   }
 }
-
-/* TODO del? */
-@media (max-width: 768px) {
-  .lead {
-  }
-}
-
-@media (max-width: 320px) {
-  .lead {
-  }
-}
