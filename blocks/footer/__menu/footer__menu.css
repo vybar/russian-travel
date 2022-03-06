@@ -1,7 +1,5 @@
 .footer__menu {
-  display: grid;
-  grid-template-columns: repeat(5, min-content);
-  grid-template-rows: min-content;
+  display: flex;
   column-gap: 18px;
   list-style-type: none;
   padding: 0;
@@ -10,8 +8,8 @@
 
 @media screen and (max-width: 767px) {
   .footer__menu {
-    grid-template-columns: min-content;
-    grid-template-rows: repeat(5, min-content);
+    display: flex;
+    flex-direction: column;
     row-gap: 32px;
   }
 }

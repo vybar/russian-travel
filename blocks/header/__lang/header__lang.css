@@ -1,10 +1,7 @@
 .header__lang {
-  display: grid;
-  grid-template-columns: repeat(2, min-content);
-  grid-template-rows: min-content;
+  display: flex;
   column-gap: 18px;
   list-style-type: none;
-  align-items: center;
   margin: 0 0 8px;
 }
 
